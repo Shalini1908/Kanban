@@ -8,8 +8,7 @@ const taskSchema = mongoose.Schema({
     enum: String,
 	default: String,
     subtask:String
-    // status : {type: String, enum: ['Todo', 'Doing', 'Done'], default: 'Todo'},
-    // subtask : [{ type: ObjectId, ref: 'Subtask'}]
+
   
     
 })

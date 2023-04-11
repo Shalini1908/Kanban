@@ -1,10 +1,3 @@
-// - Task Name
-// - Description
-// - Subtasks (Should support multiple)
-// - Current Status (Select tag with Todo, Doing, Done as options)
-// - Create Task Button
-
-
 const mongoose = require("mongoose")
 
 const addSchema = mongoose.Schema({

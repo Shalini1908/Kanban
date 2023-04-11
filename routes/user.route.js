@@ -75,31 +75,6 @@ catch(err){
 })
 
 
-
-
-// userRouter.patch("/update/:id",async(req,res)=>{
-//  const ID = req.params.id
-// const payload = req.body
-// try{
-// await UserModel.findByIdAndUpdate({_id:ID},payload)
-// res.send({"msg":"User has been updated"})
-// } catch(err){
-//     res.send({"msg":"Cannot modify" , "error":err})
-// }
-// })
-
-
-// userRouter.delete("/delete/:id",async(req,res)=>{
-//    const ID = req.params.id
-//    try{
-//    await UserModel.findByIdAndDelete({_id:ID})
-//    res.send({"msg":"User has been deleted"})
-//    } catch(err){
-//        res.send({"msg":"Cannot delete" , "error":err})
-//    }
-//    })
-
-
    module.exports={
     userRouter
    }
